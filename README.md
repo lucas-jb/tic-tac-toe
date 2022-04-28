@@ -18,7 +18,7 @@ Para jugar tan solo tendremos que introducir el número que indique la posición
 ![Table3](https://raw.githubusercontent.com/lucas-jb/tic-tac-toe/main/images/table3.png)
 
 ***
-
+#Code
 ```python
 import os;clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear');clearConsole();j1,j2,map,move = "♥","♦",[1,2,3,4,5,6,7,8,9],1 #Variables globales
 def comprobar(move, j): #Función para comprobar si el movimiento es válido
